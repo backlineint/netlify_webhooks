@@ -1,0 +1,12 @@
+netlify_webhooks.netlify_build_hook.*:
+  type: config_entity
+  label: 'Netlify build hook config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

@@ -1,0 +1,6 @@
+entity.netlify_build_hook.add_form:
+  route_name: entity.netlify_build_hook.add_form
+  title: 'Add Netlify build hook'
+  appears_on:
+    - entity.netlify_build_hook.collection
+

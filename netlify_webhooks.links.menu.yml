@@ -5,3 +5,12 @@ netlify_webhooks.default_form:
   parent: system.admin_config_services
 
 
+
+# Netlify build hook menu items definition
+entity.netlify_build_hook.collection:
+  title: 'Netlify build hook'
+  route_name: entity.netlify_build_hook.collection
+  description: 'List Netlify build hook (bundles)'
+  parent: system.admin_structure
+  weight: 99
+
